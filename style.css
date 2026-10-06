@@ -1,0 +1,121 @@
+.title{
+    color: #0c2818;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Luminari', fantasy;
+    line-height: 0.9;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+.title:hover {
+  color: #c3e7d3;
+  box-shadow: inset 800px 0 0 0 #0c2818;
+  
+
+}
+.intro{
+    color: #18281f;
+    font-size: 25px;
+    font-family: 'Work Sans', sans-serif;
+     font-style: italic;
+    line-height: 0.9;
+}
+
+header{
+      display: flex;
+
+}
+
+.header-image{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+body{
+    background-color: #eeefd5;
+}
+
+.card{
+    background-color: #3a493a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #eeefd5;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+}
+
+.section-title{
+    color: #e4f5c4;
+    font-size: 30px;
+    font-family: 'Luminari', fantasy;
+    line-height: 1.2;
+}
+.subhead{
+    color: #e4f5c4;
+    font-size: 21px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1;
+    font-style: italic;
+
+}
+
+.steps{
+    color: #eeefd5;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.5;
+    margin-left: 20px;
+    font-style: italic;
+}
+.photo{
+  width: 400px; 
+  height: auto;  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #d5e8d5;
+}
+
+.site-footer{
+    background-color: #2f362f;
+    color: #eeefd5;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 800px) {
+    .title {
+        font-size: 80px;
+    }
+    .intro {
+        font-size: 18px;
+    }
+    .section-title {
+        font-size: 24px;
+    }
+    .subhead {
+        font-size: 18px;
+    }
+    .steps {
+        font-size: 16px;
+    }
+    .photo {
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+@font-face {
+  font-family: 'Luminari';
+  src: url('luminari.woff2') format('woff2'),
+       url('luminari.woff') format('woff');
+}
