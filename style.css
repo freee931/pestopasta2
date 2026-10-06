@@ -94,18 +94,23 @@ p{
 @media (max-width: 800px) {
     .title {
         font-size: 80px;
+        max-width: 100%;
     }
     .intro {
         font-size: 18px;
+        max-width: 100%;
     }
     .section-title {
         font-size: 24px;
+        max-width: 100%;
     }
     .subhead {
         font-size: 18px;
+        max-width: 100%;
     }
     .steps {
         font-size: 16px;
+        max-width: 100%;
     }
     .photo {
         max-width: 100%;
@@ -118,4 +123,9 @@ p{
   font-family: 'Luminari';
   src: url('luminari.woff2') format('woff2'),
        url('luminari.woff') format('woff');
+}
+@font-face {
+  font-family: 'Luminari';
+  src: url('https://freee931.github.io/pestopasta2/luminari.woff2') format('woff2'),
+       url('https://freee931.github.io/pestopasta2/luminari.woff') format('woff');
 }
